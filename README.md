@@ -28,6 +28,10 @@ composer install
 
 * [Silex](http://silex.sensiolabs.org/) - The web framework used
 * [Composer](https://getcomposer.org/) - Dependency Management
+* [Twig](http://twig.sensiolabs.org/) - Php template engine
+* [Doctrine DBAL](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/index.html) - Database connection
+
+
 
 ## Versioning
 
