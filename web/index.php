@@ -4,10 +4,12 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Silex\Application();
 
-// ... definitions
+// definitions
 
 $app['debug'] = true;
 
+
+// using Twig template framework
 $app->register(new Silex\Provider\TwigServiceProvider(), [
     'twig.path' => __DIR__.'/../views',
 ]);
